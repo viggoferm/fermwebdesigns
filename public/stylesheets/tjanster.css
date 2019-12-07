@@ -1,0 +1,111 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#background-img{
+    background-image: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;       
+}
+
+#container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#topnav {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+#topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+#din{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#syftet{
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 2px black solid;
+}
+
+#fordelen{
+    font-size: 1.2em;
+}
+
+.cover{
+    object-fit: cover;
+    width: 100%;
+}
+
+#jada{
+    color: rgb(98, 209, 72);
+    font-size: 1.2em;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+#pros{
+    color: rgb(98, 209, 72);
+    padding: 30px;
+
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#pros p{
+    font-size: 1.7em;
+}
+
+#kontakt{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Fredericka the Great', cursive;
+    border: 2px rgb(98, 209, 72) solid;
+    padding: 20px;
+}
+
+.filler{
+    height: 200px;
+
+}
