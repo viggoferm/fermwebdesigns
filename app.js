@@ -16,6 +16,10 @@ app.get("/exempel", function(req, res){
     res.render("exempel")
 });
 
+app.get("*", function(req, res){
+    res.render("sidafinnsej")
+});
+
 app.listen(8000, function(){
     console.log("servern startad");
 });

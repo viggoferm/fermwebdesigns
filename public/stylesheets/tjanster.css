@@ -38,10 +38,11 @@ body{
     font-size: 4em;
     text-align: center;
     margin-top: 100px;
+    text-shadow: 2px 2px black;
 }
 
 #syftet{
-    font-size: 1.2em;
+    font-size: 1.35em;
     padding-left: 20px;
     padding-right: 20px;
     border-left: 2px black solid;
@@ -88,24 +89,29 @@ body{
 #pros{
     color: rgb(98, 209, 72);
     padding: 30px;
-
-    font-size: 1.4em;
+    border: 3px rgb(98, 209, 72) solid;
+    font-size: 1.5em;
     text-align: center;
+    margin-right: 30px;
 }
 
 #pros p{
-    font-size: 1.7em;
+    font-size: 1.3em;
 }
 
 #kontakt{
     text-align: center;
     font-size: 1.5em;
     font-family: 'Fredericka the Great', cursive;
-    border: 2px rgb(98, 209, 72) solid;
+
     padding: 20px;
 }
 
 .filler{
     height: 200px;
 
+}
+
+#kontakt a{
+    color: rgb(98, 209, 72);
 }
