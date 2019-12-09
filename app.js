@@ -20,6 +20,6 @@ app.get("*", function(req, res){
     res.render("sidafinnsej")
 });
 
-app.listen(8000, function(){
+app.listen(5000, function(){
     console.log("servern startad");
 });
