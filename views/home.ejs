@@ -1,69 +1,81 @@
-<% include partials/header.ejs %>
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <title>Document</title>
+</head>
+<body>
 
 
-<div id="background-img">
-    <div id="container">
-        <div id="topnav">
-            <a href="#">Ferm Web design</a>
-            <a href="/">Hem</a>
-            <a href="/tjanster">Tjänster & kontakt</a>          
+
+    <div id="background-img">
+        <div id="container">
+            <div id="topnav">
+                <a href="#">Ferm Web design</a>
+                <a href="/">Hem</a>
+                <a href="/tjanster">Tjänster & kontakt</a>          
+            </div>
+            <div class="row justify-content-center">
+                <div id="salein" class=" col-10 col-lg-6">
+                    <h1 id="att">Att vara småföretagare är svårt nog</h1>
+                    <h1 id="hjälper">Jag hjälper dig med hemsidan</h1>
+                </div>  
+            </div>
         </div>
-        <div class="row justify-content-center">
-            <div id="salein" class=" col-10 col-lg-6">
-                <h1 id="att">Att vara småföretagare är svårt nog</h1>
-                <h1 id="hjälper">Jag hjälper dig med hemsidan</h1>
-            </div>  
+    </div>
+
+    <div class="row mt-5 justify-content-center">
+        <div class="col-lg-2"></div>
+        <div class="col-6 col-lg-2">
+            <img class="cover" src="screen.png" alt="">
+            <p class="kop" >Jag tar hand om allt tekniskt så att du kan fokusera på att driva din verksamhet och inte på att klura ut hur man kopplar ihop sin domän med sin server.</p>
+        </div>
+        <div class="col-lg-1"></div>    
+        <div class="col-6 col-lg-2">
+            <img class="cover" src="pen.png" alt="">
+            <p class="kop">Jag har ett driv och genuint intresse för design. Så mycket bestäms av det första intrycket, därför tror jag stenhårt på att jobba med design om man vill lyckas på alla andra områden.</p>
+        </div>
+        <div class="col-lg-1"></div>    
+        <div class="col-6 col-lg-2">
+            <img class="cover" src="money.png" alt="">
+            <p class="kop">Jag jobbar inte som de stora firmorna, jag jobbar för oss småföretagare och tar rimliga priser till skillnad från de stora firmorna.</p>
+        </div>
+        <div class="col-lg-2"></div>
+        
+    </div>
+
+
+    <div class="row justify-content-center">
+        <div class=" col-10 col-lg-8">
+            <h1 id="varfor">Hur hittar kunder dig?</h1>
         </div>
     </div>
-</div>
 
-<div class="row mt-5 justify-content-center">
-    <div class="col-lg-2"></div>
-    <div class="col-6 col-lg-2">
-        <img class="cover" src="screen.png" alt="">
-        <p class="kop" >Jag tar hand om allt tekniskt så att du kan fokusera på att driva din verksamhet och inte på att klura ut hur man kopplar ihop sin domän med sin server.</p>
+    <div id="texty"class="row">
+        <div class="col-2"></div>
+        <div id="kundis" class=" col-8 col-lg-4">
+            <!-- <h1 id="hur">Hur hittar kunder dig?</h1> -->
+            <p>Med Internet är det idag lättare än någonsin för kunder att hitta oss småföretagare men det gäller ju bara för de som har en online närvaro. Om du inte finns online idag så finns du knappt något som bara kommer att bli mer och mer sant när de yngre generationerna tar över marknaden.</p>
+            <p>När kunderna sedan väl hittar dig och din hemsida så är det första intrycket avgörande. En dåligt gjord hemsida kommer bara att skrämma bort kunder som inte kommer att ta ditt företag på allvar för att inte tala om kundupplevelsen. Därför är det extremt viktigt med en väldesignad, dynamisk och snabb hemsida som ger ett gott intryck på dina kunder.</p>
+        </div>
+        <div class="col-4 d-none d-lg-block">
+            <img id="computer-google"class="cover"src="computer-google.png" alt="">
+        </div>
+        <div class="col-2"></div>    
     </div>
-    <div class="col-lg-1"></div>    
-    <div class="col-6 col-lg-2">
-        <img class="cover" src="pen.png" alt="">
-        <p class="kop">Jag har ett driv och genuint intresse för design. Så mycket bestäms av det första intrycket, därför tror jag stenhårt på att jobba med design om man vill lyckas på alla andra områden.</p>
+
+    <div class="row justify-content-center">
+        <div class="col-6 col-lg-4" id="redirect">
+            <h1>Tjänster och kontakt</h1>
+        </div>
     </div>
-    <div class="col-lg-1"></div>    
-    <div class="col-6 col-lg-2">
-        <img class="cover" src="money.png" alt="">
-        <p class="kop">Jag jobbar inte som de stora firmorna, jag jobbar för oss småföretagare och tar rimliga priser till skillnad från de stora firmorna.</p>
-    </div>
-    <div class="col-lg-2"></div>
-    
-</div>
 
 
-<div class="row justify-content-center">
-    <div class=" col-10 col-lg-8">
-        <h1 id="varfor">Hur hittar kunder dig?</h1>
-    </div>
-</div>
-
-<div id="texty"class="row">
-    <div class="col-2"></div>
-    <div id="kundis" class=" col-8 col-lg-4">
-        <!-- <h1 id="hur">Hur hittar kunder dig?</h1> -->
-        <p>Med Internet är det idag lättare än någonsin för kunder att hitta oss småföretagare men det gäller ju bara för de som har en online närvaro. Om du inte finns online idag så finns du knappt något som bara kommer att bli mer och mer sant när de yngre generationerna tar över marknaden.</p>
-        <p>När kunderna sedan väl hittar dig och din hemsida så är det första intrycket avgörande. En dåligt gjord hemsida kommer bara att skrämma bort kunder som inte kommer att ta ditt företag på allvar för att inte tala om kundupplevelsen. Därför är det extremt viktigt med en väldesignad, dynamisk och snabb hemsida som ger ett gott intryck på dina kunder.</p>
-    </div>
-    <div class="col-4 d-none d-lg-block">
-        <img id="computer-google"class="cover"src="computer-google.png" alt="">
-    </div>
-    <div class="col-2"></div>    
-</div>
-
-<div class="row justify-content-center">
-    <div class="col-6 col-lg-4" id="redirect">
-        <h1>Tjänster och kontakt</h1>
-    </div>
-</div>
-
-
-
-
-<% include partials/footer.ejs %>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="easy-pie-chart-master/dist/jquery.easypiechart.js"></script>
+</body>
+</html>
